@@ -109,8 +109,9 @@
             char v1 = (char)i;      //explicit
             //char v2 = i;          //implicit ne rabotaet
             System.Console.WriteLine("Int->Char: {0}", v1);
+            
             // bool -> short
-            //short v3 = (short)boo;    //explicit ne rabotaet (a mojno li kakto 1 i 0?)
+            //short v3 = (short)boo;   //explicit ne rabotaet (a mojno li kakto 1 i 0?)
             //short v4 = boo;          //implicit ne rabotaet
 
             // double -> long
@@ -142,7 +143,8 @@
             System.Console.WriteLine("Int<-Char: {0}, {1}", vv1, vv2);
 
             // bool <- short
-            //bool vv3 = (bool)sh;    //explicit ne rabotaet (a mojno li kakto 1 i 0?)
+            bool vv3 = System.Convert.ToBoolean(sh);    //explicit ne rabotaet (a mojno li kakto 1 i 0?)
+            System.Console.WriteLine("bool <- short: {0}", vv3);
             //bool vv4 = sh;          //implicit ne rabotaet
 
             // double <- long
