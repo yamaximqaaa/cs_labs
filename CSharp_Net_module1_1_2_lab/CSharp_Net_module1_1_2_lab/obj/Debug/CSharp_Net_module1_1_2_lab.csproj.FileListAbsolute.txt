@@ -21,3 +21,10 @@ C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\labs\CSharp_Ne
 C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\labs\CSharp_Net_module1_1_2_lab\CSharp_Net_module1_1_2_lab\bin\Debug\CSharp_Net_module1_1_2_lab.exe.config
 C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\labs\CSharp_Net_module1_1_2_lab\CSharp_Net_module1_1_2_lab\bin\Debug\CSharp_Net_module1_1_2_lab.exe
 C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\labs\CSharp_Net_module1_1_2_lab\CSharp_Net_module1_1_2_lab\bin\Debug\CSharp_Net_module1_1_2_lab.pdb
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_1_2_lab\CSharp_Net_module1_1_2_lab\bin\Debug\CSharp_Net_module1_1_2_lab.exe.config
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_1_2_lab\CSharp_Net_module1_1_2_lab\bin\Debug\CSharp_Net_module1_1_2_lab.exe
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_1_2_lab\CSharp_Net_module1_1_2_lab\bin\Debug\CSharp_Net_module1_1_2_lab.pdb
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_1_2_lab\CSharp_Net_module1_1_2_lab\obj\Debug\CSharp_Net_module1_1_2_lab.csprojAssemblyReference.cache
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_1_2_lab\CSharp_Net_module1_1_2_lab\obj\Debug\CSharp_Net_module1_1_2_lab.csproj.CoreCompileInputs.cache
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_1_2_lab\CSharp_Net_module1_1_2_lab\obj\Debug\CSharp_Net_module1_1_2_lab.exe
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_1_2_lab\CSharp_Net_module1_1_2_lab\obj\Debug\CSharp_Net_module1_1_2_lab.pdb

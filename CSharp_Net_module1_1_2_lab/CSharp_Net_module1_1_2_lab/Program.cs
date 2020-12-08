@@ -74,46 +74,103 @@
                 ch = 'm';
                 b = 12;
                 sb = 13;
-                sh
-                ush
-                i
-                ui
-                l
-                ul
-                de
-                l
-                d0
+                sh = -234;
+                ush = 234;
+                i = -3554;
+                ui = 3554;
+                l = -23452;
+                ul = 23445;
+                de = 2.3523523m;
+                fl = 2.235f;
+                d0 = 3.2352;
             }
 
             // 7)check values of variables from 1). Are they changed? Think, why
 
+            System.Console.WriteLine("boo: {0}", boo);
+            System.Console.WriteLine("ch: {0}", ch);
+            System.Console.WriteLine("b: {0}", b);
+            System.Console.WriteLine("sb: {0}", sb);
+            System.Console.WriteLine("sh: {0}", sh);
+            System.Console.WriteLine("ush: {0}", ush);
+            System.Console.WriteLine("i: {0}", i);
+            System.Console.WriteLine("ui: {0}", ui);
+            System.Console.WriteLine("l: {0}", l);
+            System.Console.WriteLine("ul: {0}", ul);
+            System.Console.WriteLine("de: {0}", de);
+            System.Console.WriteLine("fl: {0}", fl);
+            System.Console.WriteLine("d0: {0}", d0);
 
-            // 8) use implicit/ explicit conversion to convert variables from 1). 
+            // 8) use implicit(neyavnii)/ explicit(yavnii) conversion to convert variables from 1). 
             // Is it possible? 
 
             // Fix compilation errors (in case of impossible conversion commemt that line).
             // int -> char
-
+            char v1 = (char)i;      //explicit
+            //char v2 = i;          //implicit ne rabotaet
+            System.Console.WriteLine("Int->Char: {0}", v1);
             // bool -> short
+            //short v3 = (short)boo;    //explicit ne rabotaet (a mojno li kakto 1 i 0?)
+            //short v4 = boo;          //implicit ne rabotaet
 
             // double -> long
+            long v5 = (long)d0;       //explicit
+            //long v6 = d0;           //implicit   ne rabotaet
 
             // float -> char 
-
-            // int to char
-
+            char v7 = (char)fl;    //explicit
+            //char v8 = fl;        //implicit ne rabotaet
+            System.Console.WriteLine("float -> char: {0}", v7);
+            
             // decimal -> double
-
+            double v9 = (double)de;      //explicit
+            //double v10 = de;           //implicit ne rabotaet
+                                      
             // byte -> uint
+            uint v11 = (uint)b;    //explicit
+            uint v12 = b;          //implicit
 
             // ulong -> sbyte
+            sbyte v13 = (sbyte)ul;   //explicit
+            //sbyte v14 = ul;        //implicitne rabotaet
 
             // 9) and reverse conversion with fixing compilation errors.
+            
+            // int <- char
+            int vv1 = (int)ch;      //explicit
+            int vv2 = ch;           //implicit 
+            System.Console.WriteLine("Int<-Char: {0}, {1}", vv1, vv2);
 
+            // bool <- short
+            //bool vv3 = (bool)sh;    //explicit ne rabotaet (a mojno li kakto 1 i 0?)
+            //bool vv4 = sh;          //implicit ne rabotaet
+
+            // double <- long
+            double vv5 = (double)l;     //explicit
+            double vv6 = l;             //implicit   //??????
+
+            // float <- char 
+            float vv7 = (float)ch;     //explicit
+            float vv8 = ch;            //implicit ne rabotaet
+            System.Console.WriteLine("float <- char: {0}, {1}", vv7, vv8);
+
+            // decimal <- double
+            decimal vv9 = (decimal)d0;    //explicit
+            //decimal vv10 = d0;          //implicit ne rabotaet    //???????????        
+
+            // byte <- uint
+            byte vv11 = (byte)ui;      //explicit
+            //byte vv12 = ui;          //implicit ne rabotaet
+
+            // ulong <- sbyte
+            ulong vv13 = (ulong)sb;     //explicit
+            //ulong vv14 = sb;          //implicitne rabotaet
 
             // 10) declare int nullable value. Initialize it with 'null'. 
             // Try to initialize variable i with 'null'. Is it possible?
 
+            int? nnuull = null;
+            //i = null;
         }
     }
 }
