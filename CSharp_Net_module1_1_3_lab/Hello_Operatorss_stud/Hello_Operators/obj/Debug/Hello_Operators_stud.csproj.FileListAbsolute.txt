@@ -1,0 +1,18 @@
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Operatorss_stud\Hello_Operators\bin\Debug\Hello_Operators.exe.config
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Operatorss_stud\Hello_Operators\bin\Debug\Hello_Operators.exe
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Operatorss_stud\Hello_Operators\bin\Debug\Hello_Operators.pdb
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Operatorss_stud\Hello_Operators\obj\Debug\Hello_Operators_stud.csprojResolveAssemblyReference.cache
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Operatorss_stud\Hello_Operators\obj\Debug\Hello_Operators.exe
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Operatorss_stud\Hello_Operators\obj\Debug\Hello_Operators.pdb
+C:\Users\win7\Documents\Visual Studio 2013\Projects\HelloOperators_bysteps\Begin\Hello_Operatorss_stud\Hello_Operators\bin\Debug\Hello_Operators.exe.config
+C:\Users\win7\Documents\Visual Studio 2013\Projects\HelloOperators_bysteps\Begin\Hello_Operatorss_stud\Hello_Operators\obj\Debug\Hello_Operators.exe
+C:\Users\win7\Documents\Visual Studio 2013\Projects\HelloOperators_bysteps\Begin\Hello_Operatorss_stud\Hello_Operators\obj\Debug\Hello_Operators.pdb
+C:\Users\win7\Documents\Visual Studio 2013\Projects\HelloOperators_bysteps\Begin\Hello_Operatorss_stud\Hello_Operators\bin\Debug\Hello_Operators.exe
+C:\Users\win7\Documents\Visual Studio 2013\Projects\HelloOperators_bysteps\Begin\Hello_Operatorss_stud\Hello_Operators\bin\Debug\Hello_Operators.pdb
+C:\Users\win7\Documents\Visual Studio 2013\Projects\HelloOperators_bysteps\Begin\Hello_Operatorss_stud\Hello_Operators\obj\Debug\Hello_Operators_stud.csprojResolveAssemblyReference.cache
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\110316\1_1_3_Lab\upgrade\Begin\Hello_Operatorss_stud\Hello_Operators\bin\Debug\Hello_Operators.exe.config
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\110316\1_1_3_Lab\upgrade\Begin\Hello_Operatorss_stud\Hello_Operators\obj\Debug\Hello_Operators.exe
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\110316\1_1_3_Lab\upgrade\Begin\Hello_Operatorss_stud\Hello_Operators\obj\Debug\Hello_Operators.pdb
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\110316\1_1_3_Lab\upgrade\Begin\Hello_Operatorss_stud\Hello_Operators\bin\Debug\Hello_Operators.exe
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\110316\1_1_3_Lab\upgrade\Begin\Hello_Operatorss_stud\Hello_Operators\bin\Debug\Hello_Operators.pdb
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\110316\1_1_3_Lab\upgrade\Begin\Hello_Operatorss_stud\Hello_Operators\obj\Debug\Hello_Operators_stud.csprojResolveAssemblyReference.cache
