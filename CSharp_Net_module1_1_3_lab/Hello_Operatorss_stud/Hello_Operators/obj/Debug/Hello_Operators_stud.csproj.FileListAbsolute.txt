@@ -16,3 +16,10 @@ D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\110316\1_1_3_Lab\upgr
 D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\110316\1_1_3_Lab\upgrade\Begin\Hello_Operatorss_stud\Hello_Operators\bin\Debug\Hello_Operators.exe
 D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\110316\1_1_3_Lab\upgrade\Begin\Hello_Operatorss_stud\Hello_Operators\bin\Debug\Hello_Operators.pdb
 D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\110316\1_1_3_Lab\upgrade\Begin\Hello_Operatorss_stud\Hello_Operators\obj\Debug\Hello_Operators_stud.csprojResolveAssemblyReference.cache
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_1_3_lab\Hello_Operatorss_stud\Hello_Operators\bin\Debug\Hello_Operators.exe.config
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_1_3_lab\Hello_Operatorss_stud\Hello_Operators\bin\Debug\Hello_Operators.exe
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_1_3_lab\Hello_Operatorss_stud\Hello_Operators\bin\Debug\Hello_Operators.pdb
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_1_3_lab\Hello_Operatorss_stud\Hello_Operators\obj\Debug\Hello_Operators_stud.csprojAssemblyReference.cache
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_1_3_lab\Hello_Operatorss_stud\Hello_Operators\obj\Debug\Hello_Operators_stud.csproj.CoreCompileInputs.cache
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_1_3_lab\Hello_Operatorss_stud\Hello_Operators\obj\Debug\Hello_Operators.exe
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_1_3_lab\Hello_Operatorss_stud\Hello_Operators\obj\Debug\Hello_Operators.pdb

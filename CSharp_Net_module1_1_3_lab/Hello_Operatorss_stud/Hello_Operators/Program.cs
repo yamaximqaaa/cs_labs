@@ -22,15 +22,15 @@ namespace HelloOperators_stud
             {
                 case 1:
                     Farmer_puzzle();
-                    Console.WriteLine("");
+                    Console.WriteLine("Farmer, wolf, goat and cabbage puzzle");
                     break;
                 case 2:
                     Calculator();
-                    Console.WriteLine("");
+                    Console.WriteLine("Console calculator");
                     break;
                 case 3:
                     Factorial_calculation();
-                    Console.WriteLine("");
+                    Console.WriteLine("Factirial calculation");
                     break;
                 default:
                     Console.WriteLine("Exit");
@@ -60,7 +60,40 @@ You can do whatever how many flights. How to transport the wolf, goat and cabbag
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Please,  type numbers by step ");
             // Implement input and checking of the 7 numbers in the nested if-else blocks with the  Console.ForegroundColor changing
-
+            bool answer = false;
+            int operand = 1000000;
+            int key1 = 3817283;
+            int key2 = 3827183;
+            int counter = 0;
+            while (!answer)
+            {
+                int numCase = int.Parse(Console.ReadLine());
+                if (counter < 7)
+                {
+                    if (numCase == (key1/operand) | numCase == (key2 / operand))
+                    {
+                        key1 = key1 - operand * numCase;
+                        key2 = key2 - operand * numCase;
+                        operand /=10;
+                        
+                        Console.WriteLine("Correctly. Enter next num: ");
+                        counter++;
+                        continue;
+                    }
+                    else 
+                    {
+                        Console.WriteLine("Wrong. Try again:");
+                        continue;
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("I congratulate You completely guessed the sequence!!!");
+                    answer = true;
+                    break;
+                }
+                
+            }
         }
         #endregion
 
