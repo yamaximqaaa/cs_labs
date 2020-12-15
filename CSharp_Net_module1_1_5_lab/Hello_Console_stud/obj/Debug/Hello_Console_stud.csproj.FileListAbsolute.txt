@@ -1,0 +1,23 @@
+c:\users\win7\documents\visual studio 2013\Projects\Hello_Console_stud\Hello_Console_stud\bin\Debug\Hello_Console_stud.exe.config
+c:\users\win7\documents\visual studio 2013\Projects\Hello_Console_stud\Hello_Console_stud\bin\Debug\Hello_Console_stud.exe
+c:\users\win7\documents\visual studio 2013\Projects\Hello_Console_stud\Hello_Console_stud\bin\Debug\Hello_Console_stud.pdb
+c:\users\win7\documents\visual studio 2013\Projects\Hello_Console_stud\Hello_Console_stud\obj\Debug\Hello_Console_stud.exe
+c:\users\win7\documents\visual studio 2013\Projects\Hello_Console_stud\Hello_Console_stud\obj\Debug\Hello_Console_stud.pdb
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Console_stud\Hello_Console_stud\obj\Debug\Hello_Console_stud.csprojResolveAssemblyReference.cache
+C:\Users\win7\Documents\Visual Studio 2013\Projects\HelloConsole_bysteps\End\Hello_Console_stud\Hello_Console_stud\bin\Debug\Hello_Console_stud.exe.config
+C:\Users\win7\Documents\Visual Studio 2013\Projects\HelloConsole_bysteps\End\Hello_Console_stud\Hello_Console_stud\obj\Debug\Hello_Console_stud.exe
+C:\Users\win7\Documents\Visual Studio 2013\Projects\HelloConsole_bysteps\End\Hello_Console_stud\Hello_Console_stud\obj\Debug\Hello_Console_stud.pdb
+C:\Users\win7\Documents\Visual Studio 2013\Projects\HelloConsole_bysteps\End\Hello_Console_stud\Hello_Console_stud\bin\Debug\Hello_Console_stud.exe
+C:\Users\win7\Documents\Visual Studio 2013\Projects\HelloConsole_bysteps\End\Hello_Console_stud\Hello_Console_stud\bin\Debug\Hello_Console_stud.pdb
+C:\Users\win7\Documents\Visual Studio 2013\Projects\HelloConsole_bysteps\End\Hello_Console_stud\Hello_Console_stud\obj\Debug\Hello_Console_stud.csprojResolveAssemblyReference.cache
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\140316\1_1_5_lab\upgrade\End\Hello_Console_stud\Hello_Console_stud\bin\Debug\Hello_Console_stud.exe.config
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\140316\1_1_5_lab\upgrade\End\Hello_Console_stud\Hello_Console_stud\obj\Debug\Hello_Console_stud.exe
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\140316\1_1_5_lab\upgrade\End\Hello_Console_stud\Hello_Console_stud\obj\Debug\Hello_Console_stud.pdb
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\140316\1_1_5_lab\upgrade\End\Hello_Console_stud\Hello_Console_stud\bin\Debug\Hello_Console_stud.exe
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\140316\1_1_5_lab\upgrade\End\Hello_Console_stud\Hello_Console_stud\bin\Debug\Hello_Console_stud.pdb
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\140316\1_1_5_lab\upgrade\Begin\Hello_Console_stud\Hello_Console_stud\bin\Debug\Hello_Console_stud.exe.config
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\140316\1_1_5_lab\upgrade\Begin\Hello_Console_stud\Hello_Console_stud\obj\Debug\Hello_Console_stud.exe
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\140316\1_1_5_lab\upgrade\Begin\Hello_Console_stud\Hello_Console_stud\obj\Debug\Hello_Console_stud.pdb
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\140316\1_1_5_lab\upgrade\Begin\Hello_Console_stud\Hello_Console_stud\bin\Debug\Hello_Console_stud.exe
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\140316\1_1_5_lab\upgrade\Begin\Hello_Console_stud\Hello_Console_stud\bin\Debug\Hello_Console_stud.pdb
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\140316\1_1_5_lab\upgrade\Begin\Hello_Console_stud\Hello_Console_stud\obj\Debug\Hello_Console_stud.csprojResolveAssemblyReference.cache
