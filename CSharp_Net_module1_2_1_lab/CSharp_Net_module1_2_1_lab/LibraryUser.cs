@@ -7,11 +7,11 @@ namespace CSharp_Net_module1_2_1_lab
     // declare method's signature for methods of class LibraryUser
     interface ILibraryUser
     {
-        //int CreateID();
-        //bool AddBook(string book);
-        //void RemoveBook();
-        //void BookInfo();
-        //void BookCount();
+        
+        void AddBook(string book);
+        void RemoveBook(int index);
+        string BookInfo(int index);
+        int BooksCount();
         
     }
 
@@ -58,12 +58,13 @@ namespace CSharp_Net_module1_2_1_lab
             this.Phone = Phone;
             this.BookLimit = BookLimit;
         }
-        private int CreateID()
+        
+        int CreateID()
         {
             Random rnd = new Random();
             return rnd.Next(1000, 9999);
         }
-
+        
         // 7) declare methods: 
 
         //AddBook() – add new book to array bookList
@@ -101,7 +102,7 @@ namespace CSharp_Net_module1_2_1_lab
         //RemoveBook() – remove book from array bookList
         public void RemoveBook(int index)
         {
-            // check empy array
+            // check empty array
             if (BookList == 0)
                 Console.WriteLine("Array is free!");
             else
@@ -142,13 +143,13 @@ namespace CSharp_Net_module1_2_1_lab
         }
 
         //BooksCout() – returns current count of books
-        public int BooksCout()
+        public int BooksCount()
         {
             // check empty array
             if (bookList[0] == null)
                 return 0;
             // check full array
-            if (bookList[BookList-1] != null)
+            if (bookList[BookList - 1] != null)
                 return BookList;
             // count books
             else
@@ -166,9 +167,10 @@ namespace CSharp_Net_module1_2_1_lab
 
                 }
                 return counter;
-            } 
+            }
         }
-
+        
+        
         public void PrintAllBook()
         {
             for (int i = 0; i < BookLimit; i++)

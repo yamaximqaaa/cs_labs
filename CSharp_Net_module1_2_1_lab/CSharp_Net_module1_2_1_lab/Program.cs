@@ -17,17 +17,17 @@ namespace CSharp_Net_module1_2_1_lab
             user1.AddBook("Harry Potter");
             Console.WriteLine("User 2: add Sherlock Holmes");
             user2.AddBook("Sherlock Holmes");
-            Console.WriteLine("user1.BooksCount = " + user1.BooksCout() + "; user2.BooksCount " + user2.BooksCout());
+            Console.WriteLine("user1.BooksCount = " + user1.BooksCount() + "; user2.BooksCount " + user2.BooksCount());
             Console.WriteLine("user2 :");
             Console.WriteLine("Add Kobzar");
             user2.AddBook("Kobzar");
-            Console.WriteLine("user2.BooksCount " + user2.BooksCout());
+            Console.WriteLine("user2.BooksCount " + user2.BooksCount());
             Console.WriteLine("Add Dorian Gray");
             user2.AddBook("Dorian Gray");
-            Console.WriteLine("user2.BooksCount " + user2.BooksCout());
+            Console.WriteLine("user2.BooksCount " + user2.BooksCount());
             Console.WriteLine("Remove Sherlock Holmes");
             user2.RemoveBook(1);
-            Console.WriteLine("user2.BooksCount " + user2.BooksCout());
+            Console.WriteLine("user2.BooksCount " + user2.BooksCount());
         }
         
         void MyTests()
@@ -45,12 +45,12 @@ namespace CSharp_Net_module1_2_1_lab
             client1.RemoveBook(4);
 
             client1.PrintAllBook();
-            Console.WriteLine("Book count: " + client1.BooksCout());
+            Console.WriteLine("Book count: " + client1.BooksCount());
 
 
             client1.AddBook("book1");
             client1.AddBook("book2");
-            Console.WriteLine("Book count: " + client1.BooksCout());
+            Console.WriteLine("Book count: " + client1.BooksCount());
             client1.PrintAllBook();
         }
         static void Main(string[] args)
