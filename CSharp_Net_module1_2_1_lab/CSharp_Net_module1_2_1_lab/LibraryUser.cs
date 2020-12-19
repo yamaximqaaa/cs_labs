@@ -7,7 +7,7 @@ namespace CSharp_Net_module1_2_1_lab
     // declare method's signature for methods of class LibraryUser
     interface ILibraryUser
     {
-        
+
         void AddBook(string book);
         void RemoveBook(int index);
         string BookInfo(int index);
@@ -21,14 +21,14 @@ namespace CSharp_Net_module1_2_1_lab
     {
         // 3) declare properties: FirstName (read only), LastName (read only), 
         // Id (read only), Phone (get and set), BookLimit (read only)
-        #region private
-        string FirstName;
-        string LastName;
-        int ID;
-        string Phone;
-        int BookLimit;
+        #region public
+        public string FirstName { get; }
+        public string LastName { get; }
+        public int ID { get; }
+        public string Phone { get; set; }
+        public int BookLimit { get; }
 
-        
+
         #endregion
 
         // 4) declare field (bookList) as a string array
@@ -47,7 +47,7 @@ namespace CSharp_Net_module1_2_1_lab
             BookLimit = 0;
         }
 
-        public LibraryUser(string FirstName, 
+        public LibraryUser(string FirstName,
                            string LastName,
                            string Phone,
                            int BookLimit)
@@ -58,20 +58,20 @@ namespace CSharp_Net_module1_2_1_lab
             this.Phone = Phone;
             this.BookLimit = BookLimit;
         }
-        
-        int CreateID()
+
+        int CreateID() // problema chto ono dvum obektam prisvaivaet odno chislo
         {
             Random rnd = new Random();
             return rnd.Next(1000, 9999);
         }
-        
+
         // 7) declare methods: 
 
         //AddBook() – add new book to array bookList
         public void AddBook(string book)
         {
             // if no book we create array
-            if(BookList == 0)
+            if (BookList == 0)
             {
                 bookList = new string[BookLimit];
                 bookList[0] = book;
@@ -130,7 +130,7 @@ namespace CSharp_Net_module1_2_1_lab
                     }
                 }
             }
-            
+
 
         }
 
@@ -169,23 +169,19 @@ namespace CSharp_Net_module1_2_1_lab
                 return counter;
             }
         }
-        
-        
+
+
         public void PrintAllBook()
         {
             for (int i = 0; i < BookLimit; i++)
             {
-                Console.WriteLine("{0}. {1}", i+1, bookList[i]);
+                Console.WriteLine("{0}. {1}", i + 1, bookList[i]);
             }
         }
 
-        // Geters
+        
+        
 
-        public string GetFirstName() { return FirstName; }
-        public string GetLastName() { return LastName; }
-        public string GetPhone() { return Phone; }
-        public int GetID() { return ID; }
-        public int GetLimit() { return BookLimit; }
 
     }
 }
