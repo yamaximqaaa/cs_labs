@@ -4,3 +4,10 @@ D:\naukma_2014_2015\Brainbasket\BRAINBASKET\webinar\od_labs\1_2_3\upgrade\begin\
 D:\naukma_2014_2015\Brainbasket\BRAINBASKET\webinar\od_labs\1_2_3\upgrade\begin\CSharp_Net_module1_2_3_lab\CSharp_Net_module1_2_3_lab\obj\Debug\CSharp_Net_module1_2_3_lab.csprojResolveAssemblyReference.cache
 D:\naukma_2014_2015\Brainbasket\BRAINBASKET\webinar\od_labs\1_2_3\upgrade\begin\CSharp_Net_module1_2_3_lab\CSharp_Net_module1_2_3_lab\obj\Debug\CSharp_Net_module1_2_3_lab.exe
 D:\naukma_2014_2015\Brainbasket\BRAINBASKET\webinar\od_labs\1_2_3\upgrade\begin\CSharp_Net_module1_2_3_lab\CSharp_Net_module1_2_3_lab\obj\Debug\CSharp_Net_module1_2_3_lab.pdb
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_2\CSharp_Net_module1_2_3_lab\CSharp_Net_module1_2_3_lab\bin\Debug\CSharp_Net_module1_2_3_lab.exe.config
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_2\CSharp_Net_module1_2_3_lab\CSharp_Net_module1_2_3_lab\bin\Debug\CSharp_Net_module1_2_3_lab.exe
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_2\CSharp_Net_module1_2_3_lab\CSharp_Net_module1_2_3_lab\bin\Debug\CSharp_Net_module1_2_3_lab.pdb
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_2\CSharp_Net_module1_2_3_lab\CSharp_Net_module1_2_3_lab\obj\Debug\CSharp_Net_module1_2_3_lab.csprojAssemblyReference.cache
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_2\CSharp_Net_module1_2_3_lab\CSharp_Net_module1_2_3_lab\obj\Debug\CSharp_Net_module1_2_3_lab.csproj.CoreCompileInputs.cache
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_2\CSharp_Net_module1_2_3_lab\CSharp_Net_module1_2_3_lab\obj\Debug\CSharp_Net_module1_2_3_lab.exe
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_2\CSharp_Net_module1_2_3_lab\CSharp_Net_module1_2_3_lab\obj\Debug\CSharp_Net_module1_2_3_lab.pdb

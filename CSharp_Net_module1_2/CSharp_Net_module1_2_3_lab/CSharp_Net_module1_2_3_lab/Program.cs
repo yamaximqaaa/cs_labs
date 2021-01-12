@@ -11,7 +11,12 @@ namespace CSharp_Net_module1_2_3_lab
         static void Main(string[] args)
         {
             // 10) declare 2 objects
-
+            Money sum1 = new Money(CurrencyTypes.UAH, 345);
+            Money sum2 = new Money(CurrencyTypes.USD, 345);
+            Money sum3 = new Money(CurrencyTypes.UAH, 345);
+            var suum = sum1 + sum2;
+            suum = suum * 3;
+            Console.WriteLine((string)suum);
             // 11) do operations
             // add 2 objects of Money
 
