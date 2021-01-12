@@ -1,0 +1,15 @@
+c:\users\win7\documents\visual studio 2013\Projects\Hello_fact_advstud\Hello_fact_advstud\bin\Debug\Hello_fact_advstud.exe.config
+c:\users\win7\documents\visual studio 2013\Projects\Hello_fact_advstud\Hello_fact_advstud\bin\Debug\Hello_fact_advstud.exe
+c:\users\win7\documents\visual studio 2013\Projects\Hello_fact_advstud\Hello_fact_advstud\bin\Debug\Hello_fact_advstud.pdb
+c:\users\win7\documents\visual studio 2013\Projects\Hello_fact_advstud\Hello_fact_advstud\obj\Debug\Hello_fact_advstud.csprojResolveAssemblyReference.cache
+c:\users\win7\documents\visual studio 2013\Projects\Hello_fact_advstud\Hello_fact_advstud\obj\Debug\Hello_fact_advstud.exe
+c:\users\win7\documents\visual studio 2013\Projects\Hello_fact_advstud\Hello_fact_advstud\obj\Debug\Hello_fact_advstud.pdb
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\180316_5\Lab_1_2_2\Hello_fact_advstud_\Hello_fact_advstud\bin\Debug\Hello_fact_advstud.exe.config
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\180316_5\Lab_1_2_2\Hello_fact_advstud_\Hello_fact_advstud\obj\Debug\Hello_fact_advstud.exe
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\180316_5\Lab_1_2_2\Hello_fact_advstud_\Hello_fact_advstud\obj\Debug\Hello_fact_advstud.pdb
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\180316_5\Lab_1_2_2\Hello_fact_advstud_\Hello_fact_advstud\bin\Debug\Hello_fact_advstud.exe
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\180316_5\Lab_1_2_2\Hello_fact_advstud_\Hello_fact_advstud\bin\Debug\Hello_fact_advstud.pdb
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\180316_5\Lab_1_2_2\Hello_fact_advstud_\Hello_fact_advstud\obj\Debug\Hello_fact_advstud.csprojResolveAssemblyReference.cache
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\180316_5\Lab_1_2_2\upgrade\Begin\Hello_fact_advstud\Hello_fact_advstud\bin\Debug\Hello_fact_advstud.exe.config
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\180316_5\Lab_1_2_2\upgrade\Begin\Hello_fact_advstud\Hello_fact_advstud\obj\Debug\Hello_fact_advstud.exe
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\180316_5\Lab_1_2_2\upgrade\Begin\Hello_fact_advstud\Hello_fact_advstud\obj\Debug\Hello_fact_advstud.pdb
