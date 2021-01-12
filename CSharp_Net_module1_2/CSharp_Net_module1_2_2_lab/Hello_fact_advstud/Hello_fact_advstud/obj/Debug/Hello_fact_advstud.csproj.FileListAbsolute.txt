@@ -13,3 +13,10 @@ D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\180316_5\Lab_1_2_2\He
 D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\180316_5\Lab_1_2_2\upgrade\Begin\Hello_fact_advstud\Hello_fact_advstud\bin\Debug\Hello_fact_advstud.exe.config
 D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\180316_5\Lab_1_2_2\upgrade\Begin\Hello_fact_advstud\Hello_fact_advstud\obj\Debug\Hello_fact_advstud.exe
 D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\180316_5\Lab_1_2_2\upgrade\Begin\Hello_fact_advstud\Hello_fact_advstud\obj\Debug\Hello_fact_advstud.pdb
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_2\CSharp_Net_module1_2_2_lab\Hello_fact_advstud\Hello_fact_advstud\bin\Debug\Hello_fact_advstud.exe.config
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_2\CSharp_Net_module1_2_2_lab\Hello_fact_advstud\Hello_fact_advstud\bin\Debug\Hello_fact_advstud.exe
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_2\CSharp_Net_module1_2_2_lab\Hello_fact_advstud\Hello_fact_advstud\bin\Debug\Hello_fact_advstud.pdb
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_2\CSharp_Net_module1_2_2_lab\Hello_fact_advstud\Hello_fact_advstud\obj\Debug\Hello_fact_advstud.csprojAssemblyReference.cache
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_2\CSharp_Net_module1_2_2_lab\Hello_fact_advstud\Hello_fact_advstud\obj\Debug\Hello_fact_advstud.csproj.CoreCompileInputs.cache
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_2\CSharp_Net_module1_2_2_lab\Hello_fact_advstud\Hello_fact_advstud\obj\Debug\Hello_fact_advstud.exe
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_2\CSharp_Net_module1_2_2_lab\Hello_fact_advstud\Hello_fact_advstud\obj\Debug\Hello_fact_advstud.pdb
