@@ -2,7 +2,12 @@
 
 namespace CSharp_Net_module1_2_1_lab
 {
-
+    enum type1
+    {
+        mn
+    }
+    
+    
     class Program
     {
         static void MainTask()
@@ -58,8 +63,6 @@ namespace CSharp_Net_module1_2_1_lab
         static void Main(string[] args)
         {
             MainTask();
-            //MyTests();
-
         }
     }
 }

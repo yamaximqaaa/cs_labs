@@ -54,15 +54,15 @@ namespace CSharp_Net_module1_2_1_lab
         {
             this.FirstName = FirstName;
             this.LastName = LastName;
-            ID = CreateID();
+            Random rnd = new Random();
+            ID = CreateID(rnd);
             this.Phone = Phone;
             this.BookLimit = BookLimit;
         }
 
-        int CreateID() // problema chto ono dvum obektam prisvaivaet odno chislo
+        int CreateID(Random rn) // problema chto ono dvum obektam prisvaivaet odno chislo
         {
-            Random rnd = new Random();
-            return rnd.Next(1000, 9999);
+             return rn.Next(1000, 9999);
         }
 
         // 7) declare methods: 
