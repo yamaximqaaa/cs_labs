@@ -63,6 +63,7 @@ namespace CS_Project
 
             this.timeIn = DateTime.Now;
             this.timeOut = DateTime.Now;
+            TimeOut(planeNum);
             //this.timeOut = this.timeOut.AddHours(3);
 
             Console.Write("Enter plane city: ");
@@ -89,6 +90,21 @@ namespace CS_Project
             Console.Clear();
 
         }
+        
+        private void TimeOut(int numm)
+        {
+            Random rnd = new Random(numm);
+            var num = rnd.Next(0, 3);
+            if (num == 1)
+                this.timeOut = this.timeOut.AddMinutes(30);
+            else if( num == 2)
+                this.timeOut = this.timeOut.AddHours(2);
+            else if (num == 3)
+                this.timeOut = this.timeOut.AddHours(3);
+            else
+                this.timeOut = this.timeOut.AddMinutes(21);
+        }
+
         #endregion
 
         #region private methods
