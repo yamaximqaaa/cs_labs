@@ -1,0 +1,7 @@
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CS_Project\bin\Debug\CS_Project.exe.config
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CS_Project\bin\Debug\CS_Project.exe
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CS_Project\bin\Debug\CS_Project.pdb
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CS_Project\obj\Debug\CS_Project1.csprojAssemblyReference.cache
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CS_Project\obj\Debug\CS_Project1.csproj.CoreCompileInputs.cache
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CS_Project\obj\Debug\CS_Project.exe
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CS_Project\obj\Debug\CS_Project.pdb
