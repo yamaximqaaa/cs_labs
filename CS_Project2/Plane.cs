@@ -71,41 +71,56 @@ namespace CS_Project
         #region build plane
         public void BuildPlane()
         {
-            Console.Clear();
-            Console.WriteLine("Building plane...");
-            Console.WriteLine("===================================");
+            try
+            {
+                Console.Clear();
+                Console.WriteLine("Building plane...");
+                Console.WriteLine("===================================");
 
-            Console.Write("Enter plane number: ");
-            this.planeNum = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("===================================");
+                Console.Write("Enter plane number: ");
+                this.planeNum = Convert.ToInt32(Console.ReadLine().Replace(" ", ""));
+                Console.WriteLine("===================================");
 
-            this.timeIn = DateTime.Now;
-            this.timeOut = DateTime.Now;
-            TimeOut(planeNum);
-            //this.timeOut = this.timeOut.AddHours(3);
+                this.timeIn = DateTime.Now;
+                this.timeOut = DateTime.Now;
+                TimeOut(planeNum);
+                //this.timeOut = this.timeOut.AddHours(3);
 
-            Console.Write("Enter plane city: ");
-            this.city = Console.ReadLine();
-            Console.WriteLine("===================================");
+                Console.Write("Enter plane city: ");
+                this.city = Console.ReadLine().Replace(" ", "");
+                if (this.city == "")
+                {
+                    throw new FormatException();
+                }
+                Console.WriteLine("===================================");
 
-            AddAirline();
-            Console.WriteLine("===================================");
+                AddAirline();
+                Console.WriteLine("===================================");
 
-            AddTerminal();
-            Console.WriteLine("===================================");
+                AddTerminal();
+                Console.WriteLine("===================================");
 
-            AddStatus();
-            Console.WriteLine("===================================");
+                AddStatus();
+                Console.WriteLine("===================================");
 
-            Console.Write("Enter gate code: ");
-            this.gate = Console.ReadLine();
-            Console.WriteLine("===================================");
+                Console.Write("Enter gate code: ");
+                this.gate = Console.ReadLine().Replace(" ", "");
+                Console.WriteLine("===================================");
 
-            SpawnPassengers();
+                SpawnPassengers();
 
-            Console.WriteLine("Press enter to continue...");
-            Console.ReadLine();
-            Console.Clear();
+                Console.WriteLine("Press enter to continue...");
+                Console.ReadLine();
+                Console.Clear();
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine();
+                Console.WriteLine("Input correct data!");
+                Console.WriteLine("Press enter to continue...");
+                Console.ReadLine();
+                BuildPlane();
+            }
 
         }
         private void TimeOut(int numm)
@@ -133,6 +148,10 @@ namespace CS_Project
             }
             Console.Write("Enter number of Airline company: ");
             var num = Convert.ToInt32(Console.ReadLine());
+            if (num > 4 || num < 1)
+            {
+                throw new FormatException();
+            }
             switch (num)
             {
                 case (int)Airline.UkraineInternationalAirlines:
@@ -159,6 +178,10 @@ namespace CS_Project
             }
             Console.Write("Enter number of terminal: ");
             var num = Convert.ToInt32(Console.ReadLine());
+            if (num > 4 || num < 1)
+            {
+                throw new FormatException();
+            }
             switch (num)
             {
                 case (int)Terminal.A:
@@ -186,6 +209,10 @@ namespace CS_Project
             }
             Console.Write("Enter number of plane status: ");
             var num = Convert.ToInt32(Console.ReadLine());
+            if (num > 9 || num < 1)
+            {
+                throw new FormatException();
+            }
             switch (num)
             {
                 case (int)Status.CheckIn:
@@ -249,13 +276,13 @@ namespace CS_Project
 
             for (int i = 0; i < count; i++)
             {
-                Passenger passenger = new Passenger(this.planeNum, i);
+                Passenger passenger = new Passenger(this.planeNum, i, this.airline);
                 passArray[i] = passenger;
             }
         }
 
         #endregion
 
-        
+
     }
 }

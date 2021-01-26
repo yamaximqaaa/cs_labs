@@ -36,6 +36,15 @@ namespace CS_Project
         }
         public void PlaneTookOff(int planeNum_)
         {
+            if (EmptyArray())
+            {
+                Console.Clear();
+                Console.WriteLine("Array is empty!");
+                Console.WriteLine();
+                Console.WriteLine("Press Enter to continue.");
+                Console.ReadLine();
+                return;
+            }
             for (int i = 0; i < count; i++)
             {
                 if (this.planeBank[i].planeNum == planeNum_ && this.planeBank[i] != null)
@@ -64,81 +73,127 @@ namespace CS_Project
         public void FindSomePlane()
         {
             Console.Clear();
+            if (EmptyArray())
+            {
+                Console.Clear();
+                Console.WriteLine("Array is empty!");
+                Console.WriteLine();
+                Console.WriteLine("Press Enter to continue.");
+                Console.ReadLine();
+                return;
+            }
+
+            var tick = false;
             var i = 0;
             do
             {
-                Console.Clear();
-                Console.WriteLine("          Search menu          ");
-                Console.WriteLine("===============================");
-                Console.WriteLine("How you want search?");
-                Console.WriteLine("===============================");
-                Console.WriteLine("1. By number");
-                Console.WriteLine("2. By day");
-                Console.WriteLine("3. By city");
-                Console.WriteLine("4. Back");
-                Console.WriteLine("===============================");
-                Console.WriteLine();
-
-                Console.Write("Enter your choise: ");
-                i = Convert.ToInt32(Console.ReadLine());
-
-                switch (i)
+                try
                 {
-                    case 1:
-                        {
-                            Console.Clear();
-                            Console.WriteLine("Searching plane by number...");
-                            Console.WriteLine();
-                            Console.Write("Enter plane number: ");
-                            var number = Convert.ToInt32(Console.ReadLine());
-                            SearchByNum(number);
-                            Console.WriteLine("Press enter to continue...");
-                            Console.ReadLine();
-                            break;
-                        }
-                    case 2:
-                        {
-                            Console.Clear();
-                            Console.WriteLine("Searching plane by day...");
-                            Console.WriteLine();
-                            Console.Write("Enter day: ");
-                            var day = Convert.ToInt32(Console.ReadLine());
-                            SearchByTime(day);
-                            Console.WriteLine("Press enter to continue...");
-                            Console.ReadLine();
-                            break;
-                        }
-                    case 3:
-                        {
-                            Console.Clear();
-                            Console.WriteLine("Searching plane by day...");
-                            Console.WriteLine();
-                            Console.Write("Enter city: ");
-                            string city = Console.ReadLine();
-                            SearchByCity(city);
-                            Console.WriteLine("Press enter to continue...");
-                            Console.ReadLine();
-                            break;
-                        }
-                    default:
-                        {
-                            break;
-                        }
+                    Console.Clear();
+                    Console.WriteLine("          Search menu          ");
+                    Console.WriteLine("===============================");
+                    Console.WriteLine("How you want search?");
+                    Console.WriteLine("===============================");
+                    Console.WriteLine("1. By number");
+                    Console.WriteLine("2. By day");
+                    Console.WriteLine("3. By city");
+                    Console.WriteLine("4. Back");
+                    Console.WriteLine("===============================");
+                    Console.WriteLine();
 
+                    Console.Write("Enter your choise: ");
+                    i = Convert.ToInt32(Console.ReadLine());
+                    if (i > 4 || i < 1)
+                    {
+                        throw new FormatException();
+                    }
+                    switch (i)
+                    {
+                        case 1:
+                            {
+                                Console.Clear();
+                                Console.WriteLine("Searching plane by number...");
+                                Console.WriteLine();
+                                Console.Write("Enter plane number: ");
+                                var number = Convert.ToInt32(Console.ReadLine());
+                                SearchByNum(number);
+                                Console.WriteLine("Press enter to continue...");
+                                Console.ReadLine();
+                                tick = false;
+                                break;
+                            }
+                        case 2:
+                            {
+                                Console.Clear();
+                                Console.WriteLine("Searching plane by day...");
+                                Console.WriteLine();
+                                Console.Write("Enter day: ");
+                                var day = Convert.ToInt32(Console.ReadLine());
+                                SearchByTime(day);
+                                Console.WriteLine("Press enter to continue...");
+                                Console.ReadLine();
+                                tick = false;
+                                break;
+                            }
+                        case 3:
+                            {
+                                Console.Clear();
+                                Console.WriteLine("Searching plane by day...");
+                                Console.WriteLine();
+                                Console.Write("Enter city: ");
+                                string city = Console.ReadLine();
+                                SearchByCity(city);
+                                Console.WriteLine("Press enter to continue...");
+                                Console.ReadLine();
+                                tick = false;
+                                break;
+                            }
+                        case 4:
+                            {
+                                tick = true;
+                                break;
+                            }
+                        default:
+                            {
+                                Console.Clear();
+                                Console.WriteLine("Enter num 1 to 3!");
+                                Console.ReadLine();
+                                tick = false;
+                                break;
+                            }
+
+                    }
                 }
+                catch (FormatException)
+                {
+                    Console.Clear();
+                    Console.WriteLine("Enter num 1 to 3!");
+                    Console.ReadLine();
+                }
+            } while (!tick) ;
+            
 
-            } while (i == 1 || i == 2 || i == 3);
         }
 
-        private void SearchByNum(int num)
+        private Plane SearchByNum(int num)
         {
+            bool tick = true;
             for (int i = 0; i < count; i++)
             {
                 if (!EndArray(planeBank[i]) && planeBank[i].planeNum == num)
                 {
-                    PrintPlane(planeBank[i]); break;
+                    PrintPlane(planeBank[i]);
+                    tick = true;
+                    return planeBank[i];
                 }
             }
+            if (tick)
+            {
+                Console.WriteLine();
+                Console.WriteLine("No plane with {0} num.", num);
+                Console.ReadLine();
+            }
+            return new Plane();
         }
 
         private void SearchByTime(int date)
@@ -216,10 +271,9 @@ namespace CS_Project
             Console.WriteLine("1. By flight number");
             Console.WriteLine("2. By price");
             Console.WriteLine("3. By name");
-            Console.WriteLine("4. By second name");
-            Console.WriteLine("5. By passport");
-            Console.WriteLine("6. By city");
-            Console.WriteLine("7. Back");
+            Console.WriteLine("4. By passport");
+            Console.WriteLine("5. By city");
+            Console.WriteLine("6. Back");
             Console.WriteLine("===============================");
             Console.WriteLine();
 
@@ -228,39 +282,34 @@ namespace CS_Project
 
             switch (i)
             {
-                case 1:
+                case 1:// By flight num
                     {
-                        Console.WriteLine("1");
+                        CheckByFlightNum();
                         return false;
                     }
-                case 2:
+                case 2:// By price
                     {
-                        Console.WriteLine("2");
+                        CheckByPrice();
                         return false;
                     }
-                case 3:
+                case 3:// By name
                     {
-                        Console.WriteLine("3");
+                        CheckByName();
                         return false;
                     }
-                case 4:
+                case 4:// by passport
                     {
-                        Console.WriteLine("4"); 
+                        CheckByPassport();
                         return false;
                     }
-                case 5:
+                case 5:// by city
                     {
-                        Console.WriteLine("5");
+                        CheckByCity();
                         return false;
                     }
-                case 6:
+                case 6:// exit
                     {
-                        Console.WriteLine("6"); 
-                        return false;
-                    }
-                case 7:
-                    {
-                        Console.WriteLine("7"); 
+                        Console.WriteLine("7");
                         return true;
                     }
                 default:
@@ -275,6 +324,15 @@ namespace CS_Project
         }
         public void CheckPassangers()
         {
+            if (EmptyArray())
+            {
+                Console.Clear();
+                Console.WriteLine("Array is empty!");
+                Console.WriteLine();
+                Console.WriteLine("Press Enter to continue.");
+                Console.ReadLine();
+                return;
+            }
             bool isExit = false;
             do
             {
@@ -282,7 +340,7 @@ namespace CS_Project
                 {
                     isExit = CheckMenu();
                 }
-                catch(FormatException)
+                catch (FormatException)
                 {
                     Console.Clear();
                     Console.WriteLine("Enter num 1 to 7!");
@@ -292,19 +350,328 @@ namespace CS_Project
             } while (!isExit);
         }
 
+        #region check methods
+
+        private void CheckByFlightNum()
+        {
+            bool brk = false;
+            do
+            {
+                try
+                {
+                    Console.Clear();
+                    Console.WriteLine("Checking by plane number...");
+                    Console.WriteLine();
+                    Console.Write("Enter plane number: ");
+                    var number = Convert.ToInt32(Console.ReadLine());
+                    if (SearchByNum(number).gate != null)
+                    {
+                        PrintPassengers(SearchByNum(number));
+                    }
+                    Console.WriteLine();
+                    Console.WriteLine("Press Enter to continue.");
+                    Console.ReadLine();
+                    brk = true;
+                    break;
+                }
+                catch (FormatException)
+                {
+                    Console.Clear();
+                    Console.WriteLine("Enter flight number!");
+                    Console.ReadLine();
+                }
+
+            } while (!brk);
+        }
+        private void CheckByPrice()
+        {
+            bool brk = false;
+            do
+            {
+                try
+                {
+                    Console.Clear();
+                    Console.WriteLine("Checking by price...");
+                    Console.WriteLine();
+                    Console.Write("Enter ticket price: ");
+                    var price = Convert.ToInt32(Console.ReadLine());
+                    bool tick = true;
+
+
+                    for (int i = 0; i < count; i++)
+                    {
+                        if (planeBank[i] != null)
+                        {
+                            for (int j = 0; j < planeBank[i].count; j++)
+                            {
+                                if (ComparePrice(planeBank[i][j].price, price))
+                                {
+                                    PrintPassenger(planeBank[i][j]);
+                                    tick = false;
+                                }
+                            }
+                        }
+
+                    }
+
+                    NoSuchPassanger(tick);
+                    Console.WriteLine();
+                    Console.WriteLine("Press Enter to continue.");
+                    Console.ReadLine();
+                    brk = true;
+                    break;
+                }
+                catch (FormatException)
+                {
+                    Console.Clear();
+                    Console.WriteLine("Enter price number!");
+                    Console.ReadLine();
+                }
+
+            } while (!brk);
+        }
+        private void CheckByName()
+        {
+            bool brk = false;
+            do
+            {
+                try
+                {
+                    Console.Clear();
+                    Console.WriteLine("Checking by name and last name...");
+                    Console.WriteLine();
+                    bool tick = true;
+                    Console.Write("Enter Name: ");
+                    var name = Console.ReadLine();
+
+                    Console.Write("Enter Last name: ");
+                    var secondName = Console.ReadLine();
+
+                    for (int i = 0; i < count; i++)
+                    {
+                        if (planeBank[i] != null)
+                        {
+                            for (int j = 0; j < planeBank[i].count; j++)
+                            {
+                                if (CompareStrings(planeBank[i][j].name, name))
+                                {
+                                    if (CompareStrings(planeBank[i][j].secondName, secondName))
+                                    {
+                                        PrintPassenger(planeBank[i][j]);
+                                        tick = false;
+                                    }
+                                }
+
+                            }
+                        }
+                    }
+
+                    NoSuchPassanger(tick);
+                    Console.WriteLine();
+                    Console.WriteLine("Press Enter to continue.");
+                    Console.ReadLine();
+                    brk = true;
+                    break;
+                }
+                catch (FormatException)
+                {
+                    Console.Clear();
+                    Console.WriteLine("Enter flight number!");
+                    Console.ReadLine();
+                }
+
+            } while (!brk);
+        }
+        private void CheckByCity()
+        {
+            bool brk = false;
+            do
+            {
+                try
+                {
+                    Console.Clear();
+                    Console.WriteLine("Checking by city...");
+                    Console.WriteLine();
+                    bool tick = true;
+                    Console.Write("Enter city: ");
+                    var city = Console.ReadLine();
+
+                    for (int i = 0; i < count; i++)
+                    {
+                        if (planeBank[i] != null)
+                        {
+                            if (CompareStrings(planeBank[i].city, city))
+                            {
+                                Console.WriteLine("===============================");
+                                Console.WriteLine("           Plane{0}            ", planeBank[i].planeNum);
+                                Console.WriteLine("===============================");
+                                PrintPassengers(planeBank[i]);
+                                tick = false;
+                                Console.ReadLine();
+                            }
+                        }
+                    }
+
+                    NoSuchPassanger(tick);
+                    Console.WriteLine();
+                    Console.WriteLine("Press Enter to continue.");
+                    Console.ReadLine();
+                    brk = true;
+                    break;
+                }
+                catch (FormatException)
+                {
+                    Console.Clear();
+                    Console.WriteLine("Enter flight number!");
+                    Console.ReadLine();
+                }
+
+            } while (!brk);
+        }
+        private void CheckByPassport()
+        {
+            bool brk = false;
+            do
+            {
+                try
+                {
+                    Console.Clear();
+                    Console.WriteLine("Checking by passport...");
+                    Console.WriteLine();
+                    bool tick = true;
+                    Console.Write("Enter passport number: ");
+                    var passport = Console.ReadLine();
+
+                    for (int i = 0; i < count; i++)
+                    {
+                        if (planeBank[i] != null)
+                        {
+                            for (int j = 0; j < planeBank[i].count; j++)
+                            {
+                                if (CompareStrings(planeBank[i][j].passport, passport))
+                                {
+                                    PrintPassenger(planeBank[i][j]);
+                                    tick = false;
+                                }
+                            }
+                        }
+                    }
+
+                    NoSuchPassanger(tick);
+                    Console.WriteLine();
+                    Console.WriteLine("Press Enter to continue.");
+                    Console.ReadLine();
+                    brk = true;
+                    break;
+                }
+                catch (FormatException)
+                {
+                    Console.Clear();
+                    Console.WriteLine("Enter passport number!");
+                    Console.ReadLine();
+                }
+
+            } while (!brk);
+        }
+
+        #region additional methods
+        private bool CompareStrings(string name1, string name2)
+        {
+            if (name1.ToLower().Replace(" ", "") == name2.ToLower().Replace(" ", ""))
+                return true;
+            else
+                return false;
+        }
+        private bool ComparePrice(int price1, int price2)
+        {
+            if (price1 == price2)
+                return true;
+            else
+                return false;
+        }
+        private void NoSuchPassanger(bool tick)
+        {
+            if (tick)
+            {
+                Console.WriteLine();
+                Console.WriteLine("No such passanger!");
+            }
+        }
+
+        #endregion
+
+        #endregion
+
+        #endregion
+
+        #region check price
+
+        public void CheckPrise()
+        {
+            Class price1 = Class.Business;
+            Class price2 = Class.Econom;
+
+            for (int i = 1; i < Enum.GetNames(typeof(Airline)).Length + 1; i++)
+            {
+
+                switch (i)
+                {
+                    case 1:
+                        Console.WriteLine("Ukraine International Airlines");
+                        Console.WriteLine("===============================");
+                        Console.WriteLine("Business: {0}", price1 + 5000);
+                        Console.WriteLine("Econom:   {0}", price2 + 1000);
+                        break;
+                    case 2:
+                        Console.WriteLine("Windrose");
+                        Console.WriteLine("===============================");
+                        Console.WriteLine("Business: {0}", price1 + 55);
+                        Console.WriteLine("Econom:   {0}", price2 + 15);
+                        break;
+                    case 3:
+                        Console.WriteLine("Sky Up Airlines");
+                        Console.WriteLine("===============================");
+                        Console.WriteLine("Business: {0}", price1 + 2555);
+                        Console.WriteLine("Econom:   {0}", price2 + 1999);
+                        break;
+                    case 4:
+                        Console.WriteLine("Azur Air Ukraine");
+                        Console.WriteLine("================================");
+                        Console.WriteLine("Business: {0}", price1 + 228);
+                        Console.WriteLine("Econom:   {0}", price2 + 322);
+                        break;
+                    default:
+                        break;
+                }
+                Console.WriteLine("===============================");
+                Console.WriteLine();
+            }
+            Console.WriteLine();
+            Console.WriteLine("Press enter...");
+            Console.ReadLine();
+        }
+
         #endregion
 
         #region print palnes
 
         public void PrintPlanes()
         {
-            Console.Clear();
+            if (EmptyArray())
+            {
+                Console.Clear();
+                Console.WriteLine("Array is empty!");
+                Console.WriteLine();
+                Console.WriteLine("Press Enter to continue.");
+                Console.ReadLine();
+                return;
+            }
             for (int i = 0; i < count; i++)
             {
                 if (!EndArray(planeBank[i]))
                 {
                     Console.WriteLine("===============================");
-                    Console.WriteLine("              {0}                ", i + 1);
+                    Console.WriteLine("             #{0}                ", i + 1);
                     Console.WriteLine("===============================");
                     Console.WriteLine("Plane num: " + planeBank[i].planeNum.ToString());
                     Console.WriteLine("Time in  : " + planeBank[i].timeIn.ToString());
@@ -337,22 +704,38 @@ namespace CS_Project
 
         #region print passengers
 
-        public void PrintPassengers(int planeNumber)
+        public void PrintPassenger(Passenger pas)
+        {
+            Console.WriteLine("===============================");
+            Console.WriteLine("Name            : " + pas.name.ToString());
+            Console.WriteLine("Second name     : " + pas.secondName.ToString());
+            Console.WriteLine("Nationality     : " + pas.nationality.ToString());
+            Console.WriteLine("Passport        : " + pas.passport.ToString());
+            Console.WriteLine("Date of birthday: " + pas.dateOfBirthday.ToShortDateString().ToString());
+            Console.WriteLine("Sex             : " + pas.sex.ToString());
+            Console.WriteLine("Class           : " + pas.classF.ToString());
+            Console.WriteLine("Price           : " + pas.price.ToString());
+            Console.WriteLine("Plane number    : " + pas.planeNum.ToString());
+            Console.WriteLine("===============================");
+        }
+
+        public void PrintPassengers(Plane pln)
         {
             Console.Clear();
-            for (int i = 0; i < planeBank[0].count; i++)
+            for (int i = 0; i < pln.count; i++)
             {
                 Console.WriteLine("===============================");
                 Console.WriteLine("         Passenger {0}         ", i + 1);
                 Console.WriteLine("===============================");
-                Console.WriteLine("Name            : " + planeBank[0][i].name.ToString());
-                Console.WriteLine("Second name     : " + planeBank[0][i].secondName.ToString());
-                Console.WriteLine("Nationality     : " + planeBank[0][i].nationality.ToString());
-                Console.WriteLine("Passport        : " + planeBank[0][i].passport.ToString());
-                Console.WriteLine("Date of birthday: " + planeBank[0][i].dateOfBirthday.ToShortDateString().ToString());
-                Console.WriteLine("Sex             : " + planeBank[0][i].sex.ToString());
-                Console.WriteLine("Class           : " + planeBank[0][i].classF.ToString());
-                Console.WriteLine("Plane number    : " + planeBank[0][i].planeNum.ToString());
+                Console.WriteLine("Name            : " + pln[i].name.ToString());
+                Console.WriteLine("Second name     : " + pln[i].secondName.ToString());
+                Console.WriteLine("Nationality     : " + pln[i].nationality.ToString());
+                Console.WriteLine("Passport        : " + pln[i].passport.ToString());
+                Console.WriteLine("Date of birthday: " + pln[i].dateOfBirthday.ToShortDateString().ToString());
+                Console.WriteLine("Sex             : " + pln[i].sex.ToString());
+                Console.WriteLine("Class           : " + pln[i].classF.ToString());
+                Console.WriteLine("Price           : " + pln[i].price.ToString());
+                Console.WriteLine("Plane number    : " + pln[i].planeNum.ToString());
 
             }
             Console.WriteLine("===============================");
@@ -370,8 +753,7 @@ namespace CS_Project
             else
                 return false;
         }
-
-        private bool EmptyArray()
+        public bool EmptyArray()
         {
             if (this.planeBank == null)
                 return true;
@@ -404,7 +786,13 @@ namespace CS_Project
                 LandPlane(plane);
             }
         }
-
+        //private Airline RndAirline(int n)
+        //{
+        //    for (int i = 1; i <= Enum.GetNames(typeof(Airline)).Length; i++)                     // how it work: Enum.GetNames(typeof(Airline)).Length?
+        //    {
+        //        ;
+        //    }
+        //}
         #endregion
     }
 }

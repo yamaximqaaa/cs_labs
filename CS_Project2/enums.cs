@@ -33,6 +33,7 @@ namespace CS_Project
         C,
         D,
     }
+    
     enum Sex
     {
         Male = 1,
@@ -40,8 +41,8 @@ namespace CS_Project
     }
     enum Class
     {
-        Econom = 1,
-        Business
+        Econom = 3000,
+        Business = 6300
     }
     #endregion
 }

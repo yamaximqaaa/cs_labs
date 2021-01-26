@@ -24,7 +24,8 @@ namespace CS_Project
             Console.WriteLine("5. Output emergency information");
             Console.WriteLine("6. Find some plane");
             Console.WriteLine("7. Check passengers");
-            Console.WriteLine("8. Exit");
+            Console.WriteLine("8. Show price");
+            Console.WriteLine("9. Exit");
             Console.WriteLine("===============================");
             Console.WriteLine();
 
@@ -47,17 +48,32 @@ namespace CS_Project
                 case 2: // del plane by plane num-----
                     {
                         Console.Clear();
-
-                        airport.PrintPlanes();
-
-
-                        Console.WriteLine();
-                        Console.WriteLine("You deleting plane...");
-                        Console.Write("Enter num of plane: ");
-                        var numm = Convert.ToInt32(Console.ReadLine());
-                        airport.PlaneTookOff(numm);
-                        Console.WriteLine("Plane deleted.");
-                        Console.WriteLine();
+                        if (airport.EmptyArray())
+                        {
+                            Console.Clear();
+                            Console.WriteLine("Array is empty!");
+                            Console.WriteLine();
+                            Console.WriteLine("Press Enter to continue.");
+                            Console.ReadLine();
+                            return false;
+                        }
+                        try
+                        {
+                            airport.PrintPlanes();
+                            Console.WriteLine();
+                            Console.WriteLine("You deleting plane...");
+                            Console.Write("Enter num of plane: ");
+                            var numm = Convert.ToInt32(Console.ReadLine().Replace(" ", ""));
+                            airport.PlaneTookOff(numm);
+                            Console.WriteLine("Plane deleted.");
+                            Console.WriteLine();
+                        }
+                        catch (FormatException)
+                        {
+                            Console.Clear();
+                            Console.WriteLine();
+                            Console.WriteLine("Enter plane namber!");
+                        }
                         Console.WriteLine("Press enter to continue...");
                         Console.ReadLine();
                         Console.Clear();
@@ -66,6 +82,7 @@ namespace CS_Project
                 case 3: // print all------------------
                     {
                         airport.PrintPlanes();
+                        Console.WriteLine();
                         Console.WriteLine("Press enter to continue...");
                         Console.ReadLine();
                         return false;
@@ -88,8 +105,6 @@ namespace CS_Project
                 case 6: // Find some plane------------
                     {
                         airport.FindSomePlane();
-                        Console.WriteLine("Press enter to continue...");
-                        Console.ReadLine();
                         return false;
                     }
                 case 7: // Check passangers-----------
@@ -97,7 +112,13 @@ namespace CS_Project
                         airport.CheckPassangers();
                         return false;
                     }
-                case 8: // Check passangers-----------
+                case 8: // Show price-----------
+                    {
+                        Console.Clear();
+                        airport.CheckPrise();
+                        return false;
+                    }
+                case 9: // Exit ----------------------
                     {
                         Console.Clear();
                         Console.WriteLine("Press enter for exit...");
@@ -128,7 +149,7 @@ namespace CS_Project
                 catch (FormatException)
                 {
                     Console.Clear();
-                    Console.WriteLine("Enter num 1 to 8!");
+                    Console.WriteLine("Enter num 1 to 9!");
                     Console.ReadLine();
                 }
                 catch (Exception)

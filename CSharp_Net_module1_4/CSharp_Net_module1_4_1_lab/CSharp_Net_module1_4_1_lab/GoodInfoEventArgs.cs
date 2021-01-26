@@ -7,7 +7,10 @@ using System.Threading.Tasks;
 namespace CSharp_Net_module1_4_1_lab
 {
     // 1) inherit EventArgs
-   
+    class EventArgs
+    {
+        
+    }
     
     class GoodsInfoEventArgs: EventArgs
     {

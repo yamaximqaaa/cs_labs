@@ -17,6 +17,7 @@ namespace CS_Project
         DateTime dateOfBirthday { get; set; }
         Sex sex { get; set; }
         Class classF { get; set; }
+        int price { get; set; }
         #endregion
 
 
