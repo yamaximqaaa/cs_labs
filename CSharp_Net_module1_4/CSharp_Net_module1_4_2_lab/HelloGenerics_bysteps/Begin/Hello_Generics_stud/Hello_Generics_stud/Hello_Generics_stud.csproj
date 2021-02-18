@@ -41,6 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseClass.cs" />
+    <Compile Include="BasePublicField.cs" />
+    <Compile Include="BaseStaticField.cs" />
+    <Compile Include="Derived.cs" />
+    <Compile Include="DerivedPublicField.cs" />
+    <Compile Include="DerivedStaticField.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

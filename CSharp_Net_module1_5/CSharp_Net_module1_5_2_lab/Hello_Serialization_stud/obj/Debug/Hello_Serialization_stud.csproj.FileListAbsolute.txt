@@ -1,0 +1,13 @@
+c:\users\msibook\documents\visual studio 2013\Projects\Hello_Serialization_stud\Hello_Serialization_stud\bin\Debug\Hello_Serialization_stud.exe.config
+c:\users\msibook\documents\visual studio 2013\Projects\Hello_Serialization_stud\Hello_Serialization_stud\bin\Debug\Hello_Serialization_stud.exe
+c:\users\msibook\documents\visual studio 2013\Projects\Hello_Serialization_stud\Hello_Serialization_stud\bin\Debug\Hello_Serialization_stud.pdb
+c:\users\msibook\documents\visual studio 2013\Projects\Hello_Serialization_stud\Hello_Serialization_stud\obj\Debug\Hello_Serialization_stud.csprojResolveAssemblyReference.cache
+c:\users\msibook\documents\visual studio 2013\Projects\Hello_Serialization_stud\Hello_Serialization_stud\obj\Debug\Hello_Serialization_stud.exe
+c:\users\msibook\documents\visual studio 2013\Projects\Hello_Serialization_stud\Hello_Serialization_stud\obj\Debug\Hello_Serialization_stud.pdb
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Serialization_stud\Hello_Serialization_stud\bin\Debug\Hello_Serialization_stud.exe.config
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Serialization_stud\Hello_Serialization_stud\obj\Debug\Hello_Serialization_stud.exe
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Serialization_stud\Hello_Serialization_stud\obj\Debug\Hello_Serialization_stud.pdb
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\220416_20\Lab_1_7_2\upgrade\begin\Hello_Serialization_stud\Hello_Serialization_stud\bin\Debug\Hello_Serialization_stud.exe.config
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\220416_20\Lab_1_7_2\upgrade\begin\Hello_Serialization_stud\Hello_Serialization_stud\obj\Debug\Hello_Serialization_stud.exe
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\220416_20\Lab_1_7_2\upgrade\begin\Hello_Serialization_stud\Hello_Serialization_stud\obj\Debug\Hello_Serialization_stud.pdb
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\220416_20\Lab_1_7_2\upgrade\begin\Hello_Serialization_stud\Hello_Serialization_stud\obj\Debug\Hello_Serialization_stud.csprojResolveAssemblyReference.cache

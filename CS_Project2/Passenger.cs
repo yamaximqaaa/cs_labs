@@ -89,7 +89,7 @@ namespace CS_Project
             int year = new Random(n * 4).Next(1940, 2021);
             this.dateOfBirthday = new DateTime(year, month, day);
         }
-        private void AddPrice()
+        private void AddPrice()        // izbitochno 
         {
             var price = (int)classF;
             switch (this.airline)

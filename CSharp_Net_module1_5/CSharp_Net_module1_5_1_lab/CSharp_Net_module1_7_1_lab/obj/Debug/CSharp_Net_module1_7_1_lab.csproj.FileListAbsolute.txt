@@ -1,0 +1,12 @@
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\webinar\od_labs\1_7_1\upgrade\end\CSharp_Net_module1_7_1_lab\CSharp_Net_module1_7_1_lab\bin\Debug\CSharp_Net_module1_7_1_lab.exe.config
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\webinar\od_labs\1_7_1\upgrade\end\CSharp_Net_module1_7_1_lab\CSharp_Net_module1_7_1_lab\bin\Debug\CSharp_Net_module1_7_1_lab.exe
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\webinar\od_labs\1_7_1\upgrade\end\CSharp_Net_module1_7_1_lab\CSharp_Net_module1_7_1_lab\bin\Debug\CSharp_Net_module1_7_1_lab.pdb
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\webinar\od_labs\1_7_1\upgrade\end\CSharp_Net_module1_7_1_lab\CSharp_Net_module1_7_1_lab\obj\Debug\CSharp_Net_module1_7_1_lab.exe
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\webinar\od_labs\1_7_1\upgrade\end\CSharp_Net_module1_7_1_lab\CSharp_Net_module1_7_1_lab\obj\Debug\CSharp_Net_module1_7_1_lab.pdb
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_5\CSharp_Net_module1_5_1_lab\CSharp_Net_module1_7_1_lab\bin\Debug\CSharp_Net_module1_7_1_lab.exe.config
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_5\CSharp_Net_module1_5_1_lab\CSharp_Net_module1_7_1_lab\bin\Debug\CSharp_Net_module1_7_1_lab.exe
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_5\CSharp_Net_module1_5_1_lab\CSharp_Net_module1_7_1_lab\bin\Debug\CSharp_Net_module1_7_1_lab.pdb
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_5\CSharp_Net_module1_5_1_lab\CSharp_Net_module1_7_1_lab\obj\Debug\CSharp_Net_module1_7_1_lab.csprojAssemblyReference.cache
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_5\CSharp_Net_module1_5_1_lab\CSharp_Net_module1_7_1_lab\obj\Debug\CSharp_Net_module1_7_1_lab.csproj.CoreCompileInputs.cache
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_5\CSharp_Net_module1_5_1_lab\CSharp_Net_module1_7_1_lab\obj\Debug\CSharp_Net_module1_7_1_lab.exe
+C:\Users\napol\OneDrive\Рабочий стол\WayTo Maybach\С#\cs_labs\CSharp_Net_module1_5\CSharp_Net_module1_5_1_lab\CSharp_Net_module1_7_1_lab\obj\Debug\CSharp_Net_module1_7_1_lab.pdb

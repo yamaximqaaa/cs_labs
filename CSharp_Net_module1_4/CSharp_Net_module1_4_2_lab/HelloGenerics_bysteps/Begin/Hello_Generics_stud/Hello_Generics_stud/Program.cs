@@ -8,6 +8,11 @@ namespace Hello_Generics_stud
 {
     class Program
     {
+        static void Swap<T>() where T : new()
+        {
+            T puzzle = new T();
+            Console.WriteLine("");
+        }
         static void Main(string[] args)
         {
             int a;
@@ -28,33 +33,33 @@ namespace Hello_Generics_stud
                 
                         ");
                     try
-                    {                        
+                    {
                         a = int.Parse(Console.ReadLine());
                         switch (a)
                         {
-                            case 1:                             
-                                Console.WriteLine("Create Derived from static base constructor ...");
-                               
+                            case 1:
+                                Console.WriteLine("Static base constructor ...");
+                                Swap<DerivedPublicField>();
                                 break;
                             case 2:
                                 Console.WriteLine("Create Derived from static base constructor ...");
-                                
+
                                 break;
                             case 3:
                                 Console.WriteLine("Create Derived from static base constructor ...");
-                               
+
                                 break;
                             case 4:
                                 Console.WriteLine("Create Derived from static base constructor ...");
-                                                                
+
                                 Console.WriteLine("");
                                 break;
                             case 5:
                                 Console.WriteLine("Create currying ...");
-                               
+
                                 Console.WriteLine("");
                                 break;
-                           
+
                             default:
                                 Console.WriteLine("Exit");
                                 break;
@@ -67,9 +72,9 @@ namespace Hello_Generics_stud
                     }
                     finally
                     {
-                    Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine("Press Spacebar to exit; press any key to continue");
-                    Console.ForegroundColor = ConsoleColor.White;
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine("Press Spacebar to exit; press any key to continue");
+                        Console.ForegroundColor = ConsoleColor.White;
                     }
                 }
                 while (Console.ReadKey().Key != ConsoleKey.Spacebar);
