@@ -1,0 +1,2 @@
+c:\users\svf\documents\visual studio 2013\Projects\CSharp_Net-module1_7_5–lab\CSharp_Net-module1_7_5–lab\bin\Debug\CSharp_Net-module1_7_5–lab.exe.config
+C:\Users\svf\OneDrive\Work\Lesha\Brain Academy\labs - sources\CSharp_Net-module1_7_5–lab_begin\CSharp_Net-module1_7_5–lab\bin\Debug\CSharp_Net-module1_7_5–lab.exe.config

@@ -18,7 +18,9 @@ namespace CSharp_Net_module1_7_1_lab
                                                 new Computer(8, 4.7, 32, 1000),
                                                 new Computer(6, 3.0, 16, 528)};
             // 4) save data and read it in the seamplest way (with WriteData() and ReadData() methods)
-            InOutOperation.WriteData(comps);
+            InOutOperation IOvar = new InOutOperation();
+            IOvar.WriteData(comps);
+            IOvar.ReadData();
             // 5) save data and read it with WriteZip() and ReadZip() methods
             // Note: create another file for these operations
 

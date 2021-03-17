@@ -13,7 +13,7 @@ namespace CSharp_Net_module1_7_1_lab
     {
         // 1) declare properties  CurrentPath - path to file (without name of file), CurrentDirectory - name of current directory,
         // CurrentFile - name of current file
-        
+
         private DirectoryInfo currentPath;
         public DirectoryInfo CurrentPath
         {
@@ -21,19 +21,14 @@ namespace CSharp_Net_module1_7_1_lab
             set { currentPath = value; }
         }
 
-        private FileInfo currentFile;
-        public FileInfo CurrentFile
-        {
-            get { return currentFile; }
-            set { currentFile = value; }
-        }
+        public string CurrentFile { get; set; }
 
         public string CurrentDirectory { get; set; }
 
         public InOutOperation()
         {
             currentPath = new DirectoryInfo(".");
-            currentFile = new FileInfo(currentPath.FullName + @"\data.txt");
+            CurrentFile = "dat.txt";
             CurrentDirectory = currentPath.Name;
         }
         // 2) declare public methods:
@@ -52,10 +47,9 @@ namespace CSharp_Net_module1_7_1_lab
         }
         // WriteData() – save data to file
         // method takes data (info about computers) as parameter
-        static public void WriteData(Computer[] data)
+        public void WriteData(Computer[] data)
         {
-            
-            using (StreamWriter sw = File.CreateText("dat.txt"))
+            using (StreamWriter sw = File.CreateText(CurrentFile))
             {
                 foreach (Computer item in data)
                 {
@@ -70,17 +64,17 @@ namespace CSharp_Net_module1_7_1_lab
         }
         // ReadData() – read data from file
         // method returns info about computers after reading it from file
-        //static public void ReadData()
-        //{
-        //    using (StreamReader sr = File.OpenText(CurrentFile))
-        //    {
-        //        string input = null;
-        //        while ((input = sr.ReadLine()) != null)
-        //        {
-        //            Console.WriteLine(input);
-        //        }
-        //    }
-        //}
+        public void ReadData()
+        {
+            using (StreamReader sr = File.OpenText(CurrentFile))
+            {
+                string input = null;
+                while ((input = sr.ReadLine()) != null)
+                {
+                    Console.WriteLine(input);
+                }
+            }
+        }
         // WriteZip() – save data to zip file
         // method takes data (info about computers) as parameter
 

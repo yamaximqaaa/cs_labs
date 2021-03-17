@@ -24,6 +24,7 @@ namespace CSharp_Net_module1_4_1_lab
             // 12) invoke method NewGoods() of object of OnlineShop
             // discuss results
             os1.NewGoods("new book");
+            Console.ReadLine();
         }
     }
 }

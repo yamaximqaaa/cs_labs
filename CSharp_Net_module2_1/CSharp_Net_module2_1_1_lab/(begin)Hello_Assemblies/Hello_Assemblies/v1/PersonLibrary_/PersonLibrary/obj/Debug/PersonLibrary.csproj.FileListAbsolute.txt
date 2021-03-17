@@ -1,0 +1,11 @@
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Assemblies\PersonLibrary\PersonLibrary\bin\Debug\PersonLibrary.dll
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Assemblies\PersonLibrary\PersonLibrary\bin\Debug\PersonLibrary.pdb
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Assemblies\PersonLibrary\PersonLibrary\obj\Debug\PersonLibrary.csprojResolveAssemblyReference.cache
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Assemblies\PersonLibrary\PersonLibrary\obj\Debug\PersonLibrary.dll
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Assemblies\PersonLibrary\PersonLibrary\obj\Debug\PersonLibrary.pdb
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\CSharp_Net_module2_1\CSharp_Net_module2_1_1_lab\(begin)Hello_Assemblies\Hello_Assemblies\v1\PersonLibrary_\PersonLibrary\bin\Debug\PersonLibrary.pdb
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\CSharp_Net_module2_1\CSharp_Net_module2_1_1_lab\(begin)Hello_Assemblies\Hello_Assemblies\v1\PersonLibrary_\PersonLibrary\obj\Debug\PersonLibrary.csprojAssemblyReference.cache
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\CSharp_Net_module2_1\CSharp_Net_module2_1_1_lab\(begin)Hello_Assemblies\Hello_Assemblies\v1\PersonLibrary_\PersonLibrary\obj\Debug\PersonLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\CSharp_Net_module2_1\CSharp_Net_module2_1_1_lab\(begin)Hello_Assemblies\Hello_Assemblies\v1\PersonLibrary_\PersonLibrary\obj\Debug\PersonLibrary.csproj.CopyComplete
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\CSharp_Net_module2_1\CSharp_Net_module2_1_1_lab\(begin)Hello_Assemblies\Hello_Assemblies\v1\PersonLibrary_\PersonLibrary\obj\Debug\PersonLibrary.dll
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\CSharp_Net_module2_1\CSharp_Net_module2_1_1_lab\(begin)Hello_Assemblies\Hello_Assemblies\v1\PersonLibrary_\PersonLibrary\obj\Debug\PersonLibrary.pdb

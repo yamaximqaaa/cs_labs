@@ -9,7 +9,7 @@ namespace CSharp_Net_module1_4_1_lab
     class OnlineShop
     {
         // 4) declare event of type EventHandler<GoodsInfoEventArgs>
-        public delegate void EventsHandler<in T>(object sender, T e);
+        public delegate void EventsHandler<in T >(object sender, T e) where T : EventArgs;
 
         public event EventsHandler<GoodsInfoEventArgs> MyEvent;
         // 5) declare method NewGoods for event initiation

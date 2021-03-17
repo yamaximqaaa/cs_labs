@@ -1,0 +1,16 @@
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\Hello_CodeFirst\Hello_CodeFirst\bin\Debug\Hello_CodeFirst.exe.config
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\Hello_CodeFirst\Hello_CodeFirst\bin\Debug\Hello_CodeFirst.exe
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\Hello_CodeFirst\Hello_CodeFirst\bin\Debug\Hello_CodeFirst.pdb
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\Hello_CodeFirst\Hello_CodeFirst\bin\Debug\EntityFramework.dll
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\Hello_CodeFirst\Hello_CodeFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\Hello_CodeFirst\Hello_CodeFirst\bin\Debug\EntityFramework.xml
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\Hello_CodeFirst\Hello_CodeFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\Hello_CodeFirst\Hello_CodeFirst\obj\Debug\Hello_CodeFirst.csprojAssemblyReference.cache
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\Hello_CodeFirst\Hello_CodeFirst\obj\Debug\Hello_CodeFirst.csproj.CoreCompileInputs.cache
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\Hello_CodeFirst\Hello_CodeFirst\obj\Debug\Hello_CodeFirst.csproj.CopyComplete
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\Hello_CodeFirst\Hello_CodeFirst\obj\Debug\Hello_CodeFirst.exe
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\Hello_CodeFirst\Hello_CodeFirst\obj\Debug\Hello_CodeFirst.pdb
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\Hello_CodeFirst\Hello_CodeFirst\obj\Debug\Hello_CodeFirst.Migrations.init.resources
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\Hello_CodeFirst\Hello_CodeFirst\obj\Debug\Hello_CodeFirst.csproj.GenerateResource.cache
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\Hello_CodeFirst\Hello_CodeFirst\bin\Debug\App_Data\PersonalInfoDB.mdf
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\Hello_CodeFirst\Hello_CodeFirst\bin\Debug\App_Data\PersonalInfoDB_log.ldf

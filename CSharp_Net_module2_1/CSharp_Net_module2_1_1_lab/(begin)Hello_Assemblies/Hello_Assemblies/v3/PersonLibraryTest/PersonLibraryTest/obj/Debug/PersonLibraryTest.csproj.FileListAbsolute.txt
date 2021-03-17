@@ -1,0 +1,9 @@
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Assemblies\PersonLibraryTest\PersonLibraryTest\bin\Debug\PersonLibraryTest.exe
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Assemblies\PersonLibraryTest\PersonLibraryTest\bin\Debug\PersonLibraryTest.pdb
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Assemblies\PersonLibraryTest\PersonLibraryTest\obj\Debug\PersonLibraryTest.exe
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Assemblies\PersonLibraryTest\PersonLibraryTest\obj\Debug\PersonLibraryTest.pdb
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Assemblies\PersonLibraryTest\PersonLibraryTest\obj\Debug\PersonLibraryTest.csprojResolveAssemblyReference.cache
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Assemblies\v2\PersonLibraryTest\PersonLibraryTest\obj\Debug\PersonLibraryTest.exe
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Assemblies\v2\PersonLibraryTest\PersonLibraryTest\obj\Debug\PersonLibraryTest.pdb
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Assemblies\v2\PersonLibraryTest\PersonLibraryTest\bin\Debug\PersonLibraryTest.exe
+C:\Users\win7\Documents\Visual Studio 2013\Projects\Hello_Assemblies\v2\PersonLibraryTest\PersonLibraryTest\bin\Debug\PersonLibraryTest.pdb
