@@ -127,7 +127,7 @@ namespace CS_Project.AditionalMethods
                 Console.WriteLine();
                 Console.WriteLine("Enter correct plane number!!!");
                 Console.WriteLine();
-                CreatePlaneNumber();
+                key = CreatePlaneNumber();
             }
             return key;
         }
@@ -149,7 +149,7 @@ namespace CS_Project.AditionalMethods
                 Console.WriteLine();
                 Console.WriteLine("Enter correct city!!!");
                 Console.WriteLine();
-                CreateCity();
+                str = CreateCity();
             }
             return str;
         }
@@ -303,8 +303,7 @@ namespace CS_Project.AditionalMethods
                 Console.WriteLine();
                 Console.WriteLine("Enter correct gate!!");
                 Console.WriteLine();
-                CreateGate();
-                throw;
+                str = CreateGate();
             }
             return str;
         }
