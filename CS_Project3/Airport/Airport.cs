@@ -13,6 +13,9 @@ namespace CS_Project
     {
         #region airport prop
 
+
+        public int AirportSize { get; }
+        public int CurrentCount { get; set; }
         private DictionaryCollection<Plane> collectionPlane = new DictionaryCollection<Plane>();
         public Plane this[int key]
         {
@@ -26,10 +29,12 @@ namespace CS_Project
 
         #region constructor
 
-        public Airport()
+        public Airport(int size = 28)
         {
             InOut.FlyIn += InOut_FlyIn;
             InOut.FlyOut += InOut_FlyOut;
+            AirportSize = size;
+            CurrentCount = 0;
         }
 
         private void InOut_FlyOut(object sender, KeyValuePair<int, Plane> e)
@@ -59,6 +64,7 @@ namespace CS_Project
         {
             collectionPlane.Add(key, plane);
             InOut.PlaneStatus(new KeyValuePair<int, Plane>(key, plane), 1);
+            CurrentCount++;
         }
         public void PlaneTookOff(int planeNum_)
         {
@@ -76,6 +82,7 @@ namespace CS_Project
             {
                 InOut.PlaneStatus(new KeyValuePair<int, Plane>(planeNum_, collectionPlane[planeNum_]), -1);
                 collectionPlane.Del(planeNum_);
+                CurrentCount--;
             }
         }
         #endregion
@@ -95,7 +102,7 @@ namespace CS_Project
         public void FindSomePlane()
         {
             Console.Clear();
-            if (EmptyArray())
+            if (IsEmpty())
             {
                 Console.Clear();
                 Console.WriteLine("Array is empty!");
@@ -382,7 +389,7 @@ namespace CS_Project
         }
         public void CheckPassangers()
         {
-            if (EmptyArray())
+            if (IsEmpty())
             {
                 Console.Clear();
                 Console.WriteLine("Array is empty!");
@@ -817,13 +824,57 @@ namespace CS_Project
             else
                 return false;
         }
-        public bool EmptyArray()
+        public bool CheckFreeSpace()
         {
-            if (collectionPlane.IsEmpy())
-                return true;
-            else
+            if (CurrentCount == AirportSize)
+            {
                 return false;
+            }
+            else
+            {
+                return true;
+            }
         }
+        public bool IsEmpty()
+        {
+            return collectionPlane.IsEmpy();
+        }
+
+        #endregion
+
+        #region EventMethod
+        public bool RequestFreespace()
+        {
+            if (CheckFreeSpace())
+            {
+                Console.Clear();
+                Console.WriteLine($"Airport have an open spot.({AirportSize-CurrentCount} left)");
+                Console.WriteLine("Press entr to continue...");
+                Console.ReadLine();
+
+                return true;
+            }
+            else
+            {
+                Console.Clear();
+                Console.WriteLine("Airport overflow. Look for another one.");
+                Console.WriteLine("Press entr to continue...");
+                Console.ReadLine();
+
+                return false;
+            }
+        }
+
+        #region AditionalEventMethod
+
+        private bool IsExit() // TODO: Create method
+        {
+            bool isExit = true;
+            Console.WriteLine(" Are you want");
+            return isExit;
+        }
+
+        #endregion
 
         #endregion
 
@@ -834,6 +885,7 @@ namespace CS_Project
             {
                 Plane plane = new Plane(j + 1);
                 collectionPlane.Add(j + 1, new Plane(j + 1));
+                CurrentCount++;
             }
         }
         //private Airline RndAirline(int n)

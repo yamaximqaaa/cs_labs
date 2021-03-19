@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace CS_Project
 {
+    public delegate bool PlaneDelegate();
     public class Plane : IPlane, IAirportObj, IEnumerable<KeyValuePair<int, Passenger>>
     {
         #region plane propertys
@@ -31,6 +32,10 @@ namespace CS_Project
             set { collectionPassangers[key] = value; }
         }
 
+        
+        public event PlaneDelegate FlyIn;
+        public event PlaneDelegate FlyOut;
+
         #endregion
 
         #region AddDelPassangers
@@ -42,6 +47,22 @@ namespace CS_Project
         public void Del(int key)
         {
             collectionPassangers.Del(key);
+        }
+
+        #endregion
+
+        #region EventMethod
+
+        public bool InOutPlane(bool status = true)
+        {
+            if (status == true)
+            {
+                return (bool)FlyIn?.Invoke();
+            }
+            else
+            {
+                return (bool)FlyOut?.Invoke();
+            }
         }
 
         #endregion

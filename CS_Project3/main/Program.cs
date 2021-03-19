@@ -47,16 +47,22 @@ namespace CS_Project
             {
                 case 1: // add plane------------------
                     {
-                        KeyValuePair<int, Plane> plane = CreatePPObj.CreatePlane();
-
-                        airport.LandPlane(plane.Key, plane.Value);
+                        KeyValuePair<int, Plane> plane = new KeyValuePair<int, Plane>(1111, new Plane());
+                        plane.Value.FlyIn += airport.RequestFreespace;
+                        
+                        if (plane.Value.InOutPlane(true))
+                        {
+                            plane = CreatePPObj.CreatePlane();
+                            airport.LandPlane(plane.Key, plane.Value);
+                        }
+                        
 
                         return false;
                     }
                 case 2: // del plane by plane num-----
                     {
                         Console.Clear();
-                        if (airport.EmptyArray())
+                        if (airport.IsEmpty())
                         {
                             Console.Clear();
                             Console.WriteLine("Array is empty!");

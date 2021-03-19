@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 namespace CS_Project.AditionalMethods
 {
     
-    class EventHandlers
+    class EventHandlers // TODO: rename, move to plane
     {
         public event EventHandler<KeyValuePair<int, Plane>> FlyOut;
         public event EventHandler<KeyValuePair<int, Plane>> FlyIn;
 
-        public void PlaneStatus(KeyValuePair<int, Plane> plane, int i = 1)
+        public void PlaneStatus(KeyValuePair<int, Plane> plane, int i = 1) // TODO: make enum
         {
             if (i > 0)
             {
