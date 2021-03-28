@@ -81,7 +81,7 @@ namespace CS_Project
             else
             {
                 InOut.PlaneStatus(new KeyValuePair<int, Plane>(planeNum_, collectionPlane[planeNum_]), -1);
-                collectionPlane[planeNum_].InOutPlane(false);
+                //collectionPlane[planeNum_].InOutPlane(false);
                 collectionPlane.Del(planeNum_);
                 CurrentCount--;
             }

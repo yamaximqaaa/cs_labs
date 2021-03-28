@@ -45,7 +45,7 @@ namespace CSharp_Net_module1_6_1_lab
         public void AddingCustomValue(object args)
         {
             //get ManagedThreadId
-            Console.WriteLine("Current thread: " + Thread.CurrentThread.ManagedThreadId);
+            Console.WriteLine("Custom Value Current thread: " + Thread.CurrentThread.ManagedThreadId);
             //define
             var arr = (int[])args;
             var number = arr[0];
@@ -70,7 +70,7 @@ namespace CSharp_Net_module1_6_1_lab
         public void Stop()
         {
             //get ManagedThreadId
-            Console.WriteLine("Current thread: " + Thread.CurrentThread.ManagedThreadId);
+            Console.WriteLine("Stop Current thread: " + Thread.CurrentThread.ManagedThreadId);
             //craete while loop to read key
             do
             {
