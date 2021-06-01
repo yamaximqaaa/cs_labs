@@ -1,0 +1,10 @@
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\CS_Project4\obj\Debug\BusinessLogic.csprojAssemblyReference.cache
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\CS_Project4\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\CS_Project4\obj\Debug\CS_Project.exe
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\CS_Project4\obj\Debug\CS_Project.pdb
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\CS_Project4\bin\Debug\CS_Project.exe.config
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\CS_Project4\bin\Debug\CS_Project.exe
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\CS_Project4\bin\Debug\CS_Project.pdb
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\CS_Project4\obj\Debug\BusinessLogic.csproj.CopyComplete
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\CS_Project4\bin\Debug\DataAccessLayer.dll
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\CS_Project4\bin\Debug\DataAccessLayer.pdb

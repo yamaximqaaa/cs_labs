@@ -55,6 +55,15 @@ namespace CS_Project
 
         public bool InOutPlane(bool status = true)
         {
+            try // TODO
+            {
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
             if (status == true)
             {
                 return (bool)FlyIn?.Invoke();

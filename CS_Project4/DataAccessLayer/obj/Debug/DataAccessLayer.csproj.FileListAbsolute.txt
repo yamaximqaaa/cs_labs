@@ -1,0 +1,6 @@
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\CS_Project4\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\CS_Project4\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\CS_Project4\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\CS_Project4\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\CS_Project4\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\CS_Project4\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

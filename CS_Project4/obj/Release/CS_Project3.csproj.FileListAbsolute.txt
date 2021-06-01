@@ -1,0 +1,7 @@
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\CS_Project3\bin\Release\CS_Project.exe.config
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\CS_Project3\bin\Release\CS_Project.exe
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\CS_Project3\bin\Release\CS_Project.pdb
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\CS_Project3\obj\Release\CS_Project3.csproj.CoreCompileInputs.cache
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\CS_Project3\obj\Release\CS_Project.exe
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\CS_Project3\obj\Release\CS_Project.pdb
+C:\Users\Max\Desktop\WayTo Maybach\С#\cs_labs\CS_Project3\obj\Release\CS_Project3.csprojAssemblyReference.cache
